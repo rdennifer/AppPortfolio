@@ -1,0 +1,42 @@
+
+    <div class="ae-grid au-xs-ta-center au-mb-4">
+      <div *ngFor="let persona of _infoService.equipo" class="animated fadeIn ae-grid__item item-lg-4 ae-kappa au-mb-3">
+        <img [src]="persona.url" alt="" class="au-mb-3" style="width: 313px; height: 316px; object-fit: contain;">
+        <h5 class="ae-u-bolder au-mt-2">{{persona.nombre}}</h5>
+        <p class="ae-u-bolder au-mb-3">{{persona.subtitulo}}</p>
+        <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{persona.frase}}</p>
+        <a target="_blank" href="https://twitter.com/{{persona.twitter}}" class="ae-u-bolder au-underline">{{persona.twitter}}</a>
+      </div>
+      
+
+
+
+
+
+
+    </div>
+   <div class="ae-grid au-pt-2">
+      <div class="ae-grid__item item-lg-8 item-lg--offset-2">
+        <h4 class="ae-u-bolder">Abrazando el Futuro</h4>
+        <p>A medida que la tecnología continúa evolucionando, seguimos entusiasmados por abrazar el futuro. Desde aplicaciones en Python hasta usos creativos de APIs, siempre estamos ansiosos por asumir nuevos desafíos y ampliar nuestras habilidades.</p>
+      </div>
+    </div> 
+    <div class="ae-grid ae-grid--alt au-xs-ptp-1">
+      <div class="ae-grid__item--alt item-lg-4">
+        <h6 class="ae-u-boldest">Acerca de Nosotros</h6>
+        <p class="au-lh-3">¡Bienvenidos a nuestro mundo de innovación y experiencia en tecnología! Somos un equipo dinámico de apasionados entusiastas de la tecnología con una visión compartida de ofrecer soluciones de vanguardia para el siempre cambiante panorama digital. </p>
+      </div>
+      <div class="ae-grid__item--alt item-lg-4">
+        <h6 class="ae-u-boldest">Nuestra Misión</h6>
+        <p class="au-lh-3">Nuestra misión es capacitar a individuos y empresas con soluciones tecnológicas innovadoras que simplifiquen complejidades y mejoren la productividad. Nos emociona enfrentar desafíos y siempre buscamos superar los límites de lo posible.</p>
+      </div>
+      <div class="ae-grid__item--alt item-lg-4">
+        <h6 class="ae-u-boldest">Conéctate con Nosotros</h6>
+        <p class="au-lh-3"> Estamos emocionados de colaborar con personas y organizaciones visionarias. Ya sea que tengas una idea de proyecto en mente o necesites asesoramiento experto en ciberseguridad y automatización, ¡conéctate con nosotros y desbloqueemos juntos el verdadero potencial de la tecnología! </p>
+     <!--   <p class="au-lh-3">Nemo enim ipsam voluptatem quia voluptas</p> --> 
+      </div>
+    </div>
+    <p class="au-flex au-pt-4 group-buttons"><a href="portfolio.html" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+          <svg>
+            <use xlink:href="assets/img/symbols.svg#arrow"></use>
+          </svg></span></a></p>
